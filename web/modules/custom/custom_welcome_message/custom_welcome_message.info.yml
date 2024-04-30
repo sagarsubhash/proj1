@@ -1,0 +1,6 @@
+name: 'Custom Welcome Message'
+type: module
+description: 'Displays a personalized welcome message for authenticated users and a generic message for anonymous users.'
+package: Custom module
+version: 1.0
+core_version_requirement: ^8 || ^9 || ^10

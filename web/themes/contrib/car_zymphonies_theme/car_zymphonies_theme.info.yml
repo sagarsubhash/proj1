@@ -1,0 +1,67 @@
+name: Car Zymphonies Theme
+type: theme
+description: 'Designed & Developed by <a href=http://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>'
+package: core
+base theme: false
+core_version_requirement: ^8 || ^9 || ^10
+
+#libraries
+libraries:
+  - car_zymphonies_theme/bootstrap
+  - car_zymphonies_theme/flexslider
+  - car_zymphonies_theme/fontawesome
+  - car_zymphonies_theme/smartmenus
+  - car_zymphonies_theme/owl
+  - car_zymphonies_theme/global-components
+
+#Regions
+regions:
+
+  #Header
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  search: 'Search'
+
+  #Top widgets
+  topwidget_first: 'Top first widget'
+  topwidget_second: 'Top second widget'
+  topwidget_third: 'Top third widget' 
+
+  #Global region
+  highlighted: 'Highlighted' 
+  page_title: 'Page title'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+
+  #Services widgets
+  services: 'Services'
+
+  #Products widgets
+  products: 'Products'
+
+  #Features widgets
+  features_first: 'Features first widget'
+  features_second: 'Features second widget'
+  features_third: 'Features third widget'
+
+  #Bottom widgets
+  bottom_first: 'Bottom first widget'
+  bottom_second: 'Bottom second widget'
+  bottom_third: 'Bottom third widget'
+  bottom_forth: 'Bottom forth widget'
+
+  #Footer widgets
+  footer_first: 'Footer first widget'
+  footer_second: 'Footer second widget'
+  footer_third: 'Footer third widget'
+
+  #Auto hidden
+  auto_hidden_block: 'Auto hidden blocks'
+
+
+# Information added by Drupal.org packaging script on 2024-01-09
+version: '3.0.1'
+project: 'car_zymphonies_theme'
+datestamp: 1704829431

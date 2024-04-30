@@ -1,0 +1,8 @@
+about_us.aboutUs:
+   path: '/about-us'
+   defaults:
+     _controller: '\Drupal\about_us\Controller\AboutUsController::aboutUs'
+     _title: 'About Us'
+   requirements:
+     _permission: 'access content'
+ 

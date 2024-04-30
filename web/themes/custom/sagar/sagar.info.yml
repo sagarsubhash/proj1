@@ -1,0 +1,24 @@
+name: sagar
+type: theme
+base theme: mili
+description: 'Mili is a light weight drupal 8, 9 and 10 theme by <a href="https://drupar.com" target="_blank">Drupar.com</a>'
+package: Drupar
+core_version_requirement: ^9.4 || ^10
+
+libraries:
+  - mili/global-styling # Library for all global css. These css will be loaded on every pages.
+  - mili/global-scripts # Library for all global js. These js will be loaded on every pages.
+regions:
+  site_branding: 'Site Branding'
+  primary_menu: 'Primary menu'
+  search_box: 'Full Page Search'
+  page_header: 'Page Header'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Sidebar Left'
+  sidebar_second: 'Sidebar Right'
+  footer_top: 'Footer Top'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  hidden_blocks: 'Hidden Blocks'
+

@@ -1,0 +1,7 @@
+# global components
+global-components:
+  Version: 1.x
+  css:
+    theme:
+      css/global.css: {}
+      css/media.css: {}
